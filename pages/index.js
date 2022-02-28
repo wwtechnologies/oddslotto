@@ -151,7 +151,9 @@ export default function Home() {
         <nav className="navbar mt-4 mb-4">
           <div className="container">
             <div className="navbar-brand">
-              <h1>ODDSWAP Lottery</h1>
+              <h1>ODDSWAP Lottery</h1>import image from './public/images/logo.png';
+
+<img src={image} height={100} width={100} />
             </div>
             <div className="navbar-end">
               <button onClick={connectWalletHandler} className="button is-link">Connect Wallet</button>
